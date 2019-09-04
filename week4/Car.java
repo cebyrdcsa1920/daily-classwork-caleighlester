@@ -4,7 +4,7 @@ public class Car
 {
     private String model;
     private Color color;
-    private int numPassangers;
+    private int numPassengers;
     private double amountOfGas;
 
 
@@ -12,8 +12,14 @@ public class Car
     {
         model = "Camaro";
         color = Color.YELLOW;
-        numPassenger = 2;
+        numPassengers = 2;
         amountOfGas = 12.5;
+    }
+
+    public String toString()
+    {
+        return "This is my Camaro";
+
     }
 
 }
