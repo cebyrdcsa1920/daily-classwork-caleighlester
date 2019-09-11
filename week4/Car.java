@@ -28,6 +28,16 @@ public class Car
         }
 
         /**
+         *
+         * @param amount of gas to add to tank
+         */
+
+        public void fillUpTank(double amount)
+        {
+            amountOfGas +=amount;
+        }
+
+        /**
          * Gets the amount of gas in the tank
          *
          *@return the amount of gas
