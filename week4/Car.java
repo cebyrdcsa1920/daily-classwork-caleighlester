@@ -16,7 +16,14 @@ public class Car
         amountOfGas = 12.5;
         mpg = 15.0;
     }
-
+        public Car(String model, Color color, int numPassangers, double amountOfGas, double mpg)
+        {
+            this.model = model;
+            this.color = color;
+            this.numPassangers = numPassangers;
+            this.amountOfGas = amountOfGas;
+            this.mpg = mpg;
+        }
         /**
          * drives the car the given distance. Subtracts gas from the tank.
          *
